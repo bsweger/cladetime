@@ -15,7 +15,7 @@ updates:
           - minor
 
   - package-ecosystem: "pip"
-    directory: "/"
+    directory: "/requirements/requirements-docs.txt"
     allow:
       - dependency-type: "all"
     schedule:
