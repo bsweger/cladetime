@@ -15,7 +15,7 @@ updates:
           - minor
 
   - package-ecosystem: "pip"
-    directory: "/requirements/requirements-docs.txt"
+    directory: "/pyproject.toml"
     allow:
       - dependency-type: "all"
     schedule:
