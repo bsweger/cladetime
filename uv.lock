@@ -71,7 +71,7 @@ wheels = [
 
 [[package]]
 name = "awscli"
-version = "1.38.35"
+version = "1.38.33"
 source = { registry = "https://pypi.org/simple" }
 dependencies = [
     { name = "botocore" },
@@ -81,9 +81,9 @@ dependencies = [
     { name = "rsa" },
     { name = "s3transfer" },
 ]
-sdist = { url = "https://files.pythonhosted.org/packages/16/b0/14fd738b7f2aebac05b239a2dbcfd4ae7f6322de1f2bf418cbc7b344e1fc/awscli-1.38.35.tar.gz", hash = "sha256:0fdf1e96df3825ed92870cee8f62cc851cc89041109011b6bbbd3cae8a9713b7", size = 1889516 }
+sdist = { url = "https://files.pythonhosted.org/packages/3c/2b/4695b7215356b6431f42ad3ad99f4ffd49a9fe20fa0e2019e70709b353b8/awscli-1.38.33.tar.gz", hash = "sha256:f3e1c2ac07fc6dabdead5cdb9f8227c15f3698c978f0248598e55affd52168a2", size = 1889649 }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/1b/ac/d5cb8ac838830a99f19902de9446556a420b490bcfcc6b4206e1ee5df2ea/awscli-1.38.35-py3-none-any.whl", hash = "sha256:9fe0b31a738e4e418aa9a6e3584648173abd3ee148125fc8c2e8893653c3b53f", size = 4661957 },
+    { url = "https://files.pythonhosted.org/packages/99/53/6c384ee55184a827dd52c7b7b8934469c19bc15b60eabbed37d3abe051ca/awscli-1.38.33-py3-none-any.whl", hash = "sha256:1c1c64e209313959e5e1ec149aed9b433ba327112409d60585f9230cc2f56163", size = 4661879 },
 ]
 
 [[package]]
@@ -166,16 +166,16 @@ wheels = [
 
 [[package]]
 name = "boto3"
-version = "1.37.35"
+version = "1.37.33"
 source = { registry = "https://pypi.org/simple" }
 dependencies = [
     { name = "botocore" },
     { name = "jmespath" },
     { name = "s3transfer" },
 ]
-sdist = { url = "https://files.pythonhosted.org/packages/48/5f/e356ecd2f236e6ddc7711eaf3f075c15b13e2d044cfdb47719d49c4ae7dd/boto3-1.37.35.tar.gz", hash = "sha256:751ed599c8fd9ca24896edcd6620e8a32b3db1b68efea3a90126312240e668a2", size = 111640 }
+sdist = { url = "https://files.pythonhosted.org/packages/89/74/001695948752bc1b5357677eb2635e059f464b22c3eb5f9411ec4e8c48a3/boto3-1.37.33.tar.gz", hash = "sha256:4390317a1578af73f1514651bd180ba25802dcbe0a23deafa13851d54d3c3203", size = 111676 }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/f6/e4/00958f65ac74ab0a76af33f16c8fdf5726a5c6f0d3c0d0c058ff0dd00fd7/boto3-1.37.35-py3-none-any.whl", hash = "sha256:5a90d674830adbaf86456d6b27a18f5f11378277da5286511fa860d2e7b14261", size = 139922 },
+    { url = "https://files.pythonhosted.org/packages/1f/e7/e660fac728570c926c4a12fa1ae8bffde7300d4817942bbd7871a6ebd4e2/boto3-1.37.33-py3-none-any.whl", hash = "sha256:7b1b1bc69762975824e5a5d570880abebf634f7594f88b3dc175e8800f35be1a", size = 139920 },
 ]
 
 [[package]]
@@ -199,16 +199,16 @@ s3 = [
 
 [[package]]
 name = "botocore"
-version = "1.37.35"
+version = "1.37.33"
 source = { registry = "https://pypi.org/simple" }
 dependencies = [
     { name = "jmespath" },
     { name = "python-dateutil" },
     { name = "urllib3" },
 ]
-sdist = { url = "https://files.pythonhosted.org/packages/64/0b/d281d74d53f7d4733402aed7a536275084fa344a2672f7ea4dbc8ebe1f1b/botocore-1.37.35.tar.gz", hash = "sha256:197a9bf8251c45b9d882c405ec0d0ab40c10e2d2a55ee66960185daec4beb6ec", size = 13821053 }
+sdist = { url = "https://files.pythonhosted.org/packages/f4/1d/0c539ae261d2f8fe8b47c358b369ec58645bf0ea96b78825365e48675b67/botocore-1.37.33.tar.gz", hash = "sha256:09b213b0d0500040f85c7daee912ea767c724e43ed61909e624c803ff6925222", size = 13817305 }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/22/00/bf9c894f5af8e35b06ecf757d4a95883408e71c48642dc7f8760580584fd/botocore-1.37.35-py3-none-any.whl", hash = "sha256:50839212e90650d0b0fa6b8f7514876bf802f6164f2775f3abcd4d53c98bb73c", size = 13485892 },
+    { url = "https://files.pythonhosted.org/packages/21/93/425fb149fb969f07804f60cb1931d8aab197eb5f45dce821cbbbffc49207/botocore-1.37.33-py3-none-any.whl", hash = "sha256:4a167dfecae51e9140de24067de1c339acde5ade3dad524a4600ac2c72055e23", size = 13482312 },
 ]
 
 [[package]]
@@ -394,7 +394,7 @@ docs = [
 
 [package.metadata]
 requires-dist = [
-    { name = "awscli", specifier = "==1.38.35" },
+    { name = "awscli", specifier = "==1.38.33" },
     { name = "biobear" },
     { name = "biopython" },
     { name = "boto3" },
