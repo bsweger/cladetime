@@ -33,7 +33,7 @@ jobs:
 
       - name: Install dependencies 📦️
         run: |
-          uv sync --frozen
+          uv sync --extra dev --frozen
 
       - name: Lint 🧹
         run: uv run ruff check
@@ -65,8 +65,6 @@ jobs:
 
       - name: Set up Python 🐍
         uses: actions/setup-python@v5
-        with:
-          cache: pip
 
       - name: Install uv 🌟
         uses: astral-sh/setup-uv@0c5e2b8115b80b4c7c5ddf6ffdd634974642d182  #v5.4.1

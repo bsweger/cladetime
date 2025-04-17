@@ -394,7 +394,7 @@ docs = [
 
 [package.metadata]
 requires-dist = [
-    { name = "awscli", specifier = ">=1.32.92" },
+    { name = "awscli", specifier = "==1.38.35" },
     { name = "biobear" },
     { name = "biopython" },
     { name = "boto3" },
